@@ -2,9 +2,15 @@ body,html
 {
     display: flex;
     background:hsl(0, 0%, 8%);
-    flex-direction: row;
     justify-content: center;
     align-items: center
+}
+.todo_junto
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .contener
 {
@@ -16,7 +22,10 @@ body,html
     border-radius: 15px;
     align-items: center;
     overflow: hidden; 
+    margin-right: 10px;
+    margin-top: 5px;
 }
+
 .concard
 {
     display: flex;
