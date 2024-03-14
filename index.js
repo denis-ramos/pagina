@@ -4,13 +4,13 @@ const createCardNode = ()=>{
     // debugger
     imagen.src=`https://i.pinimg.com/564x/83/cc/03/83cc03dcf55c7b249024debf7c129c12.jpg ` 
     const imageContainer = document.createElement("div")
-    imageContainer.className = "image-container"
+    imageContainer.className = "imgen"
     const parrafo = document.createElement("h1")
     parrafo.className = "description"
     const text = document.createTextNode('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias perferendis ex, repudiandae dolorum illo illum itaque autem eveniet corporis et obcaecati est provident assumenda fuga aut debitis ab vel voluptas.')
     parrafo.appendChild(text)
     const card = document.createElement("div")
-    card.className="card"
+    card.className="concard"
 
     imageContainer.appendChild(imagen)
     card.appendChild(imageContainer)
@@ -19,7 +19,7 @@ const createCardNode = ()=>{
     return card
 }
 
-const mountNode = document.querySelector("#cart")
+const mountNode = document.querySelector("body")
 const addCardButton = document.querySelector(".boton_cart") 
 
 const addCard=()=>{
