@@ -11,10 +11,11 @@ body,html{
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 12%) ;
+
+    
     width: 300px;
     height: 500px;
 
-    
     border-radius: 15px;
     align-items: center;
 
